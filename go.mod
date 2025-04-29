@@ -1,4 +1,4 @@
-module github.com/peymansohi/movie-reservation-system
+module github.com/PeymanSohi/Movie-Reservation-System
 
 go 1.21
 
