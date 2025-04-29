@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/peymansohi/movie-res/internal/config"
-	"github.com/peymansohi/movie-res/internal/models"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/config"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

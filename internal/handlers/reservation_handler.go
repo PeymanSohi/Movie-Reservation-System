@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/peyman-movie-res/internal/service"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/service"
 )
 
 type ReservationHandler struct {

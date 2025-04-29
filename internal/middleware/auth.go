@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/peymansohi/movie-res/internal/config"
-	"github.com/peymansohi/movie-res/internal/models"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/config"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/models"
 )
 
 func AuthMiddleware(cfg *config.Config) gin.HandlerFunc {

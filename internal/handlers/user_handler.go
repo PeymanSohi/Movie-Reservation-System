@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/peymansohi/movie-res/internal/models"
-	"github.com/peymansohi/movie-res/internal/service"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/models"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/service"
 )
 
 type UserHandler struct {

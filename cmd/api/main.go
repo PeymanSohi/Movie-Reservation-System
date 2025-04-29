@@ -6,12 +6,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-	"github.com/peymansohi/movie-res/internal/config"
-	"github.com/peymansohi/movie-res/internal/database"
-	"github.com/peymansohi/movie-res/internal/handlers"
-	"github.com/peymansohi/movie-res/internal/middleware"
-	"github.com/peymansohi/movie-res/internal/repository"
-	"github.com/peymansohi/movie-res/internal/service"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/config"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/database"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/handlers"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/middleware"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/repository"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/service"
 )
 
 func main() {

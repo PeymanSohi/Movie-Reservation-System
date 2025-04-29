@@ -3,8 +3,8 @@ package service
 import (
 	"time"
 
-	"github.com/peymansohi/movie-res/internal/models"
-	"github.com/peymansohi/movie-res/internal/repository"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/models"
+	"github.com/PeymanSohi/Movie-Reservation-System/repository"
 )
 
 type ReservationService struct {

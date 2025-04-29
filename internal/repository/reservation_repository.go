@@ -3,7 +3,7 @@ package repository
 import (
 	"time"
 
-	"github.com/peymansohi/movie-res/internal/models"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/models"
 	"gorm.io/gorm"
 )
 

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/peymansohi/movie-res/internal/models"
-	"github.com/peymansohi/movie-res/internal/repository"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/models"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/repository"
 )
 
 type MovieService struct {

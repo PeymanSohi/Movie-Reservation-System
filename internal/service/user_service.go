@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/peymansohi/movie-res/internal/config"
-	"github.com/peymansohi/movie-res/internal/models"
-	"github.com/peymansohi/movie-res/internal/repository"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/config"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/models"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/repository"
 )
 
 type UserService struct {
