@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/PeymanSohi/Movie-Reservation-System/internal/models"
-	"github.com/PeymanSohi/Movie-Reservation-System/repository"
+	"github.com/PeymanSohi/Movie-Reservation-System/internal/repository"
 )
 
 type ReservationService struct {
