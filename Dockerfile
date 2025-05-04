@@ -3,13 +3,17 @@ FROM golang:1.22-alpine AS builder
 
 WORKDIR /app
 
-# Install git for private repositories
-RUN apk add --no-cache git
+# Install git and build dependencies
+RUN apk add --no-cache git gcc musl-dev
+
+# Set GOPROXY to use multiple proxies
+ENV GOPROXY=https://goproxy.io,direct
+ENV GOSUMDB=off
 
 # Copy go mod files
-COPY go.mod ./
+COPY go.mod go.sum ./
 
-# Initialize module and download dependencies
+# Download dependencies
 RUN go mod download
 
 # Copy the source code
